@@ -8,7 +8,7 @@
 */
 import Select from "./components/Selector/index.js";
 
-if (!customElements.get("my-selector")) {
-    customElements.define("my-selector", Select);
+if (!customElements.get("la-select")) {
+    customElements.define("la-select", Select);
 }
 
