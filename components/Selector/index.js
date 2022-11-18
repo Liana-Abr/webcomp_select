@@ -1,7 +1,4 @@
 export default class Select extends HTMLElement {
-    constructor() {
-        super();
-    }
 
     connectedCallback() {   
 //сам селектор
